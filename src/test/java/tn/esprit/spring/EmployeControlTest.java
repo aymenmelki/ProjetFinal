@@ -17,6 +17,8 @@ import tn.esprit.spring.entities.Employe;
 import tn.esprit.spring.entities.Role;
 import tn.esprit.spring.services.EmployeServiceImpl;
 
+@RunWith(SpringRunner.class)
+
 @SpringBootTest
 public class EmployeControlTest {
 	@Autowired
